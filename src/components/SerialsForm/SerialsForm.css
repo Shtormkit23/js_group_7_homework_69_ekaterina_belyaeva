@@ -1,0 +1,91 @@
+.Form {
+    display: flex;
+}
+
+.Input {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 190px;
+    border-radius: 5px;
+    font-size: 12px;
+    height: 25px;
+    margin: 10px auto;
+    resize: none;
+    position: relative;
+}
+
+.Input:focus {
+    outline: none;
+    box-shadow: -1px -1px 15px 0 rgba(255, 255, 255, 0.75);
+}
+
+.Input::placeholder{
+    font-size: 12px;
+}
+
+.Serials {
+    position: absolute;
+    top: 67px;
+    right: 19px;
+    border-radius: 13px;
+    width: 350px;
+    overflow: hidden;
+}
+
+.ListSerials {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    border: 1px solid #0e0f38;
+}
+
+.Serial a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Serial {
+    padding: 2px 10px;
+    border-bottom: 1px solid white;
+    background: white;
+}
+
+.Serial:hover {
+    background: linear-gradient(to right, #4b4ebf 0%, #2c2f82 100%);
+}
+
+.enterSeries {
+    display: none;
+}
+
+.SeriesInfo {
+    width: 295px;
+    padding: 15px;
+}
+
+.SeriesImg {
+    overflow: hidden;
+    padding: 10px;
+    border-right: 1px solid grey;
+}
+
+.SeriesBlock {
+    display: flex;
+    width: 561px;
+    border: 1px solid grey;
+    font-family: 'Quantico', sans-serif;
+    font-size: 20px;
+}
+
+.DefaultImg {
+    width: 232px;
+    margin-top: 30px;
+}
+
+.SeriesText {
+    border-bottom: 1px solid grey;
+}
