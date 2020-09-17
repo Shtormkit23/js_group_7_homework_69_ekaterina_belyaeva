@@ -1,0 +1,15 @@
+.Logo {
+margin-top: 10px;
+    display: flex;
+}
+
+.Logo img {
+    height: 84px;
+}
+
+.LogoText {
+    font-family: 'Quantico', sans-serif;
+    font-size: 40px;
+    margin: 10px 0 0 -10px;
+    color: azure;
+}
