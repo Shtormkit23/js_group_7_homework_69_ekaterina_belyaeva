@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Quantico:ital,wght@0,700;1,400&display=swap');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  position: absolute;
+  font-family: 'Merienda', sans-serif;
 }
+
+
